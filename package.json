@@ -1,0 +1,27 @@
+{
+  "name": "QuickRenamer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "start": "node .",
+    "debug": "node --nolazy --inspect-brk=9229 .",
+    "test": "mocha",
+    "posttest": "npm run lint"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "ffmpeg-wrap": "^1.1.0",
+    "filmaffinity-search": "^1.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "mocha": "^5.2.0"
+  },
+  "repository": {
+    "type": "",
+    "url": "https://github.com/agonbar/QuickRenamer"
+  },
+  "license": "MIT",
+  "description": "The name quick refers to the time spent on writing the code, not the speed of the program :-)"
+}
